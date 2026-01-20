@@ -50,6 +50,10 @@ header p {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.profile-pic{
+    width: 50%; /* The width is relative to its parent container */
+    aspect-ratio: 1 / 1; /* This forces the height to be equal to the width */
+}
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 18px 35px rgba(0,0,0,0.12);
